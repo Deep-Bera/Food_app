@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.mainDiv {
+  height: 100%;
+  width: 100%;
+}
+
+.upperDiv {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 80vh;
+  width: 98%;
+}
+.leftSide {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.innerLeftSide {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.innerLeftSide form {
+  height: 32%;
+  width: 100%;
+}
+.innerLeftSide p {
+  font-family: "Poppins", sans-serif;
+  line-height: 1rem;
+}
+.leftSide img {
+  height: 1.8rem;
+  width: 7.3rem;
+  margin-left: 7rem;
+}
+.leftSide h1 {
+  font-size: 1.2rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+.innerLeftSide input {
+  border-radius: 1rem;
+  height: 1.5rem;
+  width: 93%;
+  padding: 5px 10px;
+  border-width: 1px;
+}
+.btnSignIn {
+  background-color: #fc8a06;
+  border-radius: 1rem;
+  height: 2.5em;
+  border-width: 1px;
+  width: 100%;
+}
+.rightSide {
+  width: 50%;
+  height: 100%;
+
+  display: flex;
+  justify-content: center;
+}
+
+.rightSide img {
+  width: 90%;
+  height: 100%;
+  border-radius: 1.2rem;
+}
+
+/* Lower Footer portion  */
+.lowerDiv {
+  height: 25vh;
+  width: 98%;
+  /* border: 2px solid blue; */
+}
